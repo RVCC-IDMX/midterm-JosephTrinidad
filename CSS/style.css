@@ -1,2 +1,43 @@
 /* Journey to the Center of the Earth Practicum */
 /* Joseph Trinidad*/
+/* use Google for the structure */
+body{
+    border: 5px solid #886644;
+    padding: 20px;
+    margin:3em;
+    box-shadow:  10px 5px 5px #886644;
+     
+    
+
+
+}
+header{
+    border: 2px solid #886644;
+    padding: 30px;
+    margin:5em;
+    box-shadow: 10px 5px 5px #886644;
+}
+nav{
+    border: 2px solid #886644;
+    padding: 30px;
+    margin:5em;
+    box-shadow:  10px 5px 5px #886644;
+}
+main{
+    border: 2px solid #886644;
+    padding: 35px;
+    margin:7em;
+    box-shadow: 10px 5px 5px #886644;
+}
+aside{
+    border: 4px solid #886644;
+    padding: 29px;
+    margin:6em;
+    box-shadow:10px 5px 5px #886644;
+}
+footer{
+    border: 5px solid #886644;
+    padding: 40px;
+    margin:10em;
+    box-shadow: 10px 5px 5px #886644;
+}
