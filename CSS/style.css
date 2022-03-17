@@ -6,38 +6,96 @@ body{
     padding: 20px;
     margin:3em;
     box-shadow:  10px 5px 5px #886644;
-     
+    background-attachment: fixed; 
+    background: linear-gradient(#a38567, rgb(48, 42, 42)); 
+    color: rgba(255, 255, 255, 0.7);
     
-
-
 }
-header{
+/* use Google for the structure */
+header{ 
     border: 2px solid #886644;
     padding: 30px;
     margin:5em;
-    box-shadow: 10px 5px 5px #886644;
+    box-shadow: 30px 30px 30px #000 inset;
+    background-image: url("../img/cave.jpg");
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: white; 
+      
 }
+
+/* use Google for the structure */
 nav{
     border: 2px solid #886644;
     padding: 30px;
     margin:5em;
     box-shadow:  10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction:row;
+    
+    
+    
+    
+    
 }
+
+nav ul li {
+    display:inline;
+    
+    margin-left:17px;
+    font-size: 35px;
+}
+nav ul {
+    text-align:center;
+}
+
 main{
     border: 2px solid #886644;
     padding: 35px;
     margin:7em;
     box-shadow: 10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+
 }
+
+#cover {
+    float:left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+}
+
+main p:first-of-type::first-line {
+    color:black;
+    float:left;
+    font-size:1em;
+    padding:1em;
+   
+
+}
+
 aside{
     border: 4px solid #886644;
     padding: 29px;
     margin:6em;
     box-shadow:10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 footer{
     border: 5px solid #886644;
     padding: 40px;
     margin:10em;
     box-shadow: 10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
 }
