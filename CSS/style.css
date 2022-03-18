@@ -1,0 +1,167 @@
+/* Journey to the Center of the Earth Practicum */
+/* Joseph Trinidad*/
+/* use Google for the structure */
+body{
+    border: 5px solid #886644;
+    padding: 20px;
+    margin:3em;
+    box-shadow:  10px 5px 5px #886644;
+    background-attachment: fixed; 
+    background: linear-gradient(#a38567, rgb(48, 42, 42)); 
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+/* use Google for the structure */
+header{ 
+    border: 2px solid #886644;
+    padding: 30px;
+    margin:5em;
+    box-shadow: 30px 30px 30px #000 inset;
+    background-image: url("../img/cave.jpg");
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: white; 
+      
+}
+
+/* use Google for the structure */
+nav{
+    border: 2px solid #886644;
+    padding: 30px;
+    margin:5em;
+    box-shadow:  10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction:row;
+    background-color: beige;
+    
+    
+    
+    
+    
+}
+
+nav ul li {
+    display:inline;
+    
+    margin-left:17px;
+    font-size: 35px;
+}
+nav ul {
+    text-align:center;
+}
+
+main{
+    border: 2px solid #886644;
+    padding: 35px;
+    margin:7em;
+    box-shadow: 10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+   
+
+}
+
+#cover {
+    float:left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+}
+
+main p:first-of-type::first-line {
+    color:black;
+    float:left;
+    font-size:1em;
+    padding:1em;
+   
+
+}
+
+aside{
+    border: 4px solid #886644;
+    padding: 29px;
+    margin:6em;
+    box-shadow:10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+footer{
+    border: 5px solid #886644;
+    padding: 40px;
+    margin:10em;
+    box-shadow: 10px 5px 5px #886644;
+    font-size:large; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+/* ipad standard*/
+h1{
+    font-size: larger;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opinion{
+   height: 150px;
+   gap: 0;
+   padding: 3em;
+   margin-block-end: auto;
+   text-align: center;
+   border: 3px solid #000;
+   display: grid;
+   grid-template-columns: 2fr;
+
+ 
+   
+   
+   
+   
+
+  
+}
+.signature{
+    height: fit-content;
+    gap: 0;
+    padding: 0em;
+    text-align: end;
+    display: grid;
+    grid-template-columns: 1.5fr;
+    
+    
+}
+/* desk top or large screens*/
+.opinion{
+    font-size: 1.2em;
+    padding-top: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 1em;
+
+    max-width: 50%;
+    text-align: left;
+    margin:10px 50px 20px;
+    display: grid;
+    grid-auto-columns: 1px 1px 1px;
+}
+.signature{ 
+    font-size: 1.2em;
+    padding-top: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 1em;
+
+    max-width: 50%;
+    text-align: right;
+    margin:10px 50px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
