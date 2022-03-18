@@ -2,8 +2,7 @@
 /* Joseph Trinidad*/
 /* use Google for the structure */
 html{
-    box-shadow:  10px 5px 5px #886644; 
-    background-attachment: fixed; 
+    box-shadow:  10px 5px 5px #886644;  
     background: content-box linear-gradient(#a38567, rgb(48, 42, 42)); 
     
     
@@ -15,7 +14,7 @@ body{
     margin:3em;
     box-shadow:  10px 5px 5px #886644;
     background-attachment: fixed;  
-    color: #ffffff;
+    color: #300707;
     
     
 }
